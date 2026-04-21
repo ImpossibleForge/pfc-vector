@@ -1,0 +1,22 @@
+[package]
+name = "pfc-vector"
+version = "0.1.0"
+edition = "2021"
+description = "High-performance PFC ingest daemon for Vector.dev, Telegraf, and HTTP sources"
+license = "MIT"
+repository = "https://github.com/ImpossibleForge/pfc-vector"
+
+[dependencies]
+axum = "0.7"
+tokio = { version = "1", features = ["full"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+chrono = { version = "0.4", features = ["serde"] }
+
+[dev-dependencies]
+tower = { version = "0.4", features = ["util"] }
+http-body-util = "0.1"
+axum = { version = "0.7", features = [] }
+tempfile = "3"
