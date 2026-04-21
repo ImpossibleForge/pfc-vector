@@ -49,6 +49,8 @@ PFC_VECTOR_DIR=/data/pfc PFC_API_KEY=secret \
   ./target/release/pfc-vector
 ```
 
+> **License note:** This tool requires the `pfc_jsonl` binary. `pfc_jsonl` is free for personal and open-source use — commercial use requires a separate license. See [pfc-jsonl](https://github.com/ImpossibleForge/pfc-jsonl) for details.
+
 ---
 
 ## Vector.dev sink configuration
