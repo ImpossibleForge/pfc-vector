@@ -281,6 +281,16 @@ Your data sources
 
 ---
 
+
+
+---
+
+## License
+
+pfc-vector (this repository) is released under the MIT License — see [LICENSE](LICENSE).
+
+The PFC-JSONL binary () is proprietary software — free for personal and open-source use. Commercial use requires a license: [info@impossibleforge.com](mailto:info@impossibleforge.com)
+
 ## Disclaimer
 
 PFC-Vector is an independent open-source project and is not affiliated with, endorsed by, or associated with Vector.dev or Datadog, Inc.
