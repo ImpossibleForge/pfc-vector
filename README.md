@@ -234,6 +234,7 @@ pfc-gateway (Python/FastAPI) is our bidirectional gateway — it's great for mos
 
 | | pfc-gateway (Python) | pfc-vector (Rust) |
 | [pfc-otel-collector](https://github.com/ImpossibleForge/pfc-otel-collector) | OpenTelemetry OTLP/HTTP log exporter |
+| [pfc-kafka-consumer](https://github.com/ImpossibleForge/pfc-kafka-consumer) | Kafka / Redpanda consumer |
 |---|---|---|
 | Language | Python + asyncio | Rust + Tokio |
 | GIL | Yes (no true parallelism) | None |
