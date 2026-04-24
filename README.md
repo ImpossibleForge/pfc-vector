@@ -233,6 +233,7 @@ docker run -d \
 pfc-gateway (Python/FastAPI) is our bidirectional gateway — it's great for most workloads. pfc-vector exists for one reason: **extreme throughput with zero GIL pressure**.
 
 | | pfc-gateway (Python) | pfc-vector (Rust) |
+| [pfc-otel-collector](https://github.com/ImpossibleForge/pfc-otel-collector) | OpenTelemetry OTLP/HTTP log exporter |
 |---|---|---|
 | Language | Python + asyncio | Rust + Tokio |
 | GIL | Yes (no true parallelism) | None |
