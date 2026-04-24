@@ -278,3 +278,9 @@ Your data sources
 
 *ImpossibleForge — [github.com/ImpossibleForge](https://github.com/ImpossibleForge)*  
 *Contact: info@impossibleforge.com*
+
+---
+
+## Disclaimer
+
+PFC-Vector is an independent open-source project and is not affiliated with, endorsed by, or associated with Vector.dev or Datadog, Inc.
