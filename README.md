@@ -273,6 +273,10 @@ Your data sources
 - [pfc-fluentbit](https://github.com/ImpossibleForge/pfc-fluentbit) — Fluent Bit → PFC pipeline
 - [pfc-migrate](https://github.com/ImpossibleForge/pfc-migrate) — one-shot export and archive conversion
 - [pfc-duckdb](https://github.com/ImpossibleForge/pfc-duckdb) — DuckDB extension for SQL queries on PFC files
+- [pfc-otel-collector](https://github.com/ImpossibleForge/pfc-otel-collector) — OpenTelemetry OTLP/HTTP log exporter
+- [pfc-kafka-consumer](https://github.com/ImpossibleForge/pfc-kafka-consumer) — Kafka / Redpanda consumer → PFC
+- [pfc-telegraf](https://github.com/ImpossibleForge/pfc-telegraf) — Telegraf HTTP output plugin → PFC
+- [pfc-grafana](https://github.com/ImpossibleForge/pfc-grafana) — Grafana data source plugin for PFC archives
 
 ---
 
