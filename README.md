@@ -271,17 +271,15 @@ Your data sources
 
 ---
 
-## Related repos
+## Part of the PFC Ecosystem
 
-- [pfc-jsonl](https://github.com/ImpossibleForge/pfc-jsonl) — core binary (compress/decompress/query)
-- [pfc-gateway](https://github.com/ImpossibleForge/pfc-gateway) — HTTP REST gateway (query + ingest, Python)
-- [pfc-fluentbit](https://github.com/ImpossibleForge/pfc-fluentbit) — Fluent Bit → PFC pipeline
-- [pfc-migrate](https://github.com/ImpossibleForge/pfc-migrate) — one-shot export and archive conversion
-- [pfc-duckdb](https://github.com/ImpossibleForge/pfc-duckdb) — DuckDB extension for SQL queries on PFC files
-- [pfc-otel-collector](https://github.com/ImpossibleForge/pfc-otel-collector) — OpenTelemetry OTLP/HTTP log exporter
-- [pfc-kafka-consumer](https://github.com/ImpossibleForge/pfc-kafka-consumer) — Kafka / Redpanda consumer → PFC
-- [pfc-telegraf](https://github.com/ImpossibleForge/pfc-telegraf) — Telegraf HTTP output plugin → PFC
-- [pfc-grafana](https://github.com/ImpossibleForge/pfc-grafana) — Grafana data source plugin for PFC archives
+**[→ View all PFC tools & integrations](https://github.com/ImpossibleForge/pfc-jsonl#ecosystem)**
+
+| Direct integration | Why |
+|---|---|
+| [pfc-gateway](https://github.com/ImpossibleForge/pfc-gateway) | Query the archives pfc-vector creates — HTTP REST, no DuckDB required |
+| [pfc-fluentbit](https://github.com/ImpossibleForge/pfc-fluentbit) | Alternative ingest — native Fluent Bit plugin instead of HTTP sink |
+| [pfc-telegraf](https://github.com/ImpossibleForge/pfc-telegraf) | Alternative ingest — Telegraf HTTP output plugin |
 
 ---
 
