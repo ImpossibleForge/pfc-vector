@@ -1,5 +1,10 @@
 # pfc-vector
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Rust](https://img.shields.io/badge/Rust-stable-orange.svg)](https://www.rust-lang.org)
+[![PFC-JSONL](https://img.shields.io/badge/PFC--JSONL-v3.4-green.svg)](https://github.com/ImpossibleForge/pfc-jsonl)
+[![Version](https://img.shields.io/badge/pfc--vector-v0.1.0-brightgreen.svg)](https://github.com/ImpossibleForge/pfc-vector/releases)
+
 **High-performance PFC ingest daemon for Vector.dev, Telegraf, Fluent Bit, and any HTTP source.**
 
 pfc-vector is a lightweight Rust HTTP server that receives log/metric events from any tool with HTTP output, buffers them in memory-safe Tokio async code, and compresses them to `.pfc` archives automatically.
