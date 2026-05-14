@@ -1,6 +1,6 @@
 use axum::{
     body::Bytes,
-    extract::State,
+    extract::{DefaultBodyLimit, State},
     http::{HeaderMap, StatusCode},
     response::{IntoResponse, Response},
     routing::{get, post},
@@ -490,12 +490,14 @@ async fn main() {
     // Start watchdog
     tokio::spawn(watchdog(shared.clone()));
 
+    // Body limit: 32 MB — matches the default PFC block size and Vector.dev recommended batch size
     let app = Router::new()
         .route("/", get(health))
         .route("/health", get(health))
         .route("/ingest", post(ingest))
         .route("/ingest/flush", post(ingest_flush))
         .route("/ingest/status", get(ingest_status))
+        .layer(DefaultBodyLimit::max(32 * 1024 * 1024))
         .with_state(shared);
 
     let listener = tokio::net::TcpListener::bind(&bind).await.unwrap();

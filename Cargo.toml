@@ -1,6 +1,6 @@
 [package]
 name = "pfc-vector"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 description = "High-performance PFC ingest daemon for Vector.dev, Telegraf, and HTTP sources"
 license = "MIT"

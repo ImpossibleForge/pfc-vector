@@ -1,5 +1,14 @@
 # Changelog — pfc-vector
 
+## v0.1.1 (2026-05-14)
+
+### Enhanced — Request body limit raised to 32 MB
+
+The axum router now explicitly sets a 32 MB body limit (`DefaultBodyLimit::max`),
+matching the default PFC block size and the Vector.dev recommended batch size
+(`max_bytes = 10485760` in vector.toml). Previously the axum default of 2 MB
+caused HTTP 413 for larger Vector.dev batches.
+
 ## v0.1.0 (2026-04-21)
 
 ### Initial release — High-performance PFC ingest daemon in Rust
