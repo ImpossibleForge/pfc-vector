@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Rust](https://img.shields.io/badge/Rust-stable-orange.svg)](https://www.rust-lang.org)
-[![PFC-JSONL](https://img.shields.io/badge/PFC--JSONL-v3.4-green.svg)](https://github.com/ImpossibleForge/pfc-jsonl)
+[![PFC-JSONL](https://img.shields.io/badge/PFC--JSONL-green.svg)](https://github.com/ImpossibleForge/pfc-jsonl)
 [![Version](https://img.shields.io/badge/pfc--vector-v0.1.1-brightgreen.svg)](https://github.com/ImpossibleForge/pfc-vector/releases)
 
 **High-performance PFC ingest daemon for Vector.dev, Telegraf, Fluent Bit, and any HTTP source.**
